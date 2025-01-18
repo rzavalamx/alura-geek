@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek Challenge</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/animaciones.css">
+    <link rel="stylesheet" href="./css/indexresponsive.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jersey+10&family=Lilita+One&family=Pixelify+Sans:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <!--ENCABEZADO-->
+    <header class="header">
+        <img src="./icons/gamasutra_icon.png" alt="icono" class="icon-game-1">
+        <h2 class="title-header">AluraGeek</h2>
+        <img src="./icons/gamasutra_icon.png" alt="icono" class="icon-game-2">
+    </header>
+
+    <!--CONTENENEDOR PRINCIPAL-->
+    <main class="container"> 
+
+        <h2 class="title_one">Productos</h2>
+
+        <section class="products"> <!--SECCION DE PRODUCTOS-->
+            <div class="container_products" data-card-product>
+                <ul class="cards" data-card> <!--CARD-->
+                    <li class="target_cards">
+                        <img src="./img/mackbook.webp" alt="MacBook M3" class="img_product">
+                        <p class="text_product">MacBook Air M3</p>
+                        <p class="price_product">$ 250 USD</p>
+                        <button class="material-symbols-outlined" data-id="${id}">delete</button>
+                    </li>
+                </ul><!-- FINAL DE LA CARD-->
+            </div>
+        </section> <!--FIN DE LA SECCION DE PRODUCTOS-->
+
+        <!--SECCION PARA AGREGAR PRODUCTOS*-->
+        <h2 class="product_text product_text_a">Agregar Articulo</h2>
+
+        <!--INICIO DE FORMULARIO-->
+        <form class="form_add_product" data-formulario>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre.." data-nombre>
+            <br>
+            <input type="number" name="precio" id="precio" step="0.01" min="0.01" placeholder="Precio.." data-precio>
+            <br>
+            <input type="text" name="imagen" id="imagen" placeholder="URL de la imagen..." data-imagen>
+
+            <!--BOTONES-->
+            <div class="btn_products">
+                <input type="submit" value="Agregar" class="btn-submit">
+                <input type="submit" value="Limpiar" class="btn-clear">
+            </div>
+        </form>
+
+    </main> <!--FIN DEL CONTENIDO GENERAL-->
+
+
+    <!-- FOOTER O PIE DE PAGINA-->
+    <footer class="footer">
+        <div class="footer_2">
+            <h3 class="text_footer">AluraGeek</h3>
+            <P class="footer_parraf">Creado Por: Rafael Zavala Cruz</P>
+            <!--IMAGENES ANIMACION-->
+            <div class="footer_icons">
+                <img src="./icons/gamasutra_icon.png" alt="ghost" class="ghost-1">
+                <img src="./icons/gamasutra_icon.png" alt="ghost" class="ghost-1">
+            </div>
+        </div>
+    </footer>
+
+    <script src="./JS/mostrarProductos.js" type="module"></script>
+    <script src="./JS/crearProducto.js" type="module"></script>
+
+</body>
+
+</html>
