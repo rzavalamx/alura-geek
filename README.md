@@ -54,31 +54,22 @@ Haz clic en el botón Eliminar del CRUD
 ## 🚀 Instalación
 
 ### Requisitos previos
-
 - **Node.js** instalado.
 
 ### Pasos
-
 1. Clona este repositorio:
-
    ```bash
    git clone https://github.com/rzavalamx/alura-ageek.git
    ```
-
 2. Navega al directorio del proyecto:
-
    ```bash
    cd alura-geek
    ```
-
 3. Instala las dependencias:
-
    ```bash
    npm install
    ```
-
 4. Inicia el servidor JSON:
-
    ```bash
    npm start
    ```
