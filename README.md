@@ -6,7 +6,6 @@
 ## IMAGENES DEL PROYECTO
 
 ## App
-![aluraGeek](https://github.com/rzavalamx/encriptador-de-texto/assets/173956835/2f064825-75ee-4d36-b627-e37b975357eb)
 ![aluraGeek](https://github.com/rzavalamx/alura-geek/blob/main/img/alurageek.png?raw=true)
 
 **Proyecto creado con: 🛠️**
